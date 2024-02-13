@@ -15,9 +15,26 @@
   font-weight: 600;
   font-family: "Inter", sans-serif;
   background-color: black;
+  display: flex;
+  gap: 100px;
+  align-items: center;
 }
 
 #principal a {
   text-decoration: none;
   color: white;
+  margin: 0 20px;
+}
+
+#principal div {
+  width: 79%;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+#principal button{
+  height: 40px;
+  width: 100px;
+  border: none;
 }
